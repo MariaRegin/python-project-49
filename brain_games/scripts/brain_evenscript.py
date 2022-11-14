@@ -14,7 +14,7 @@ def main():
     welcome_user()
     provide_task()
     explain_details()
-    launch_game
+    launch_game()
     operation_type()
     operation_result()
 
