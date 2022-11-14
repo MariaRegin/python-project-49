@@ -10,7 +10,8 @@ def welcome_user():
     print('Hello, ' + name + '!')
 
 def explain_details():
-    print(task)
+   task = provide_task()
+   print(task)
 
 def launch_game():
     tries = 0
@@ -30,3 +31,5 @@ def launch_game():
 
     if tries >= 3:
         print('Congratulations, ' + name + '!')
+
+
