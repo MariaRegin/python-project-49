@@ -9,18 +9,15 @@ name = prompt.string('May I have your name? ')
 def welcome_user():
     print('Hello, ' + name + '!')
 
-def explain_details():
-   task = provide_task()
-   print(task)
+def explain_details(task):
+    print(task)
 
-def launch_game():
+def launch_game(operation, res):
     tries = 0
     while tries < 3:
-        operation = operation_type()
         tries += 1
         print('Question: ', operation)
         answer = prompt.string('Your answer: ')
-        res = operation_result()
 
         if res == answer:
             print('Correct!')
