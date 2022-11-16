@@ -15,6 +15,7 @@ def explain_details(task):
 def launch_game(operation, res):
     tries = 0
     while tries < 3:
+
         tries += 1
         print('Question: ', operation)
         answer = prompt.string('Your answer: ')
@@ -28,5 +29,3 @@ def launch_game(operation, res):
 
     if tries >= 3:
         print('Congratulations, ' + name + '!')
-
-
