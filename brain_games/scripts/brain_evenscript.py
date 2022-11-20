@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
 
-from brain_games.games.brain_even import provide_task
-from brain_games.games.brain_even import operation
-from brain_games.games.brain_even import operation_result
-from brain_games.engine import welcome_user
-from brain_games.engine import explain_details
+import brain_games.games.brain_even as game
 from brain_games.engine import launch_game
-from brain_games.engine import name
+
 
 
 def main():
-    welcome_user()
-    explain_details(provide_task())
-    launch_game(operation, operation_result())
+    launch_game(game)
 
 if __name__ == '__main__':
     main()
