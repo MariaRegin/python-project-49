@@ -1,31 +1,22 @@
 #!/usr/bin/env python3
 
 import prompt
-import random
 
-
-name = prompt.string('May I have your name? ')
-
-def welcome_user():
+def launch_game(game_module):
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-
-def explain_details(task):
-    print(task)
-
-def launch_game(operation, res):
+    print(game_module.TASK)
     tries = 0
     while tries < 3:
-
         tries += 1
-        print('Question: ', operation)
+        number, right_answer = game_module.operation_result()
+        print('Question: ', number)
         answer = prompt.string('Your answer: ')
-
-        if res == answer:
+        if right_answer == answer:
             print('Correct!')
-
-        if res != answer:
-            print('\"' + answer + '\"' + ' is wrong answer ;(. Correct answer was ' + res + '.' + "\nLet's try again, " + name + '!')
+        else:
+            print('\"' + answer + '\"' + ' is wrong answer ;(. Correct answer was ' + right_answer + '.' + "\nLet's try again, " + name + '!')
             break
-
-    if tries >= 3:
+    else:
         print('Congratulations, ' + name + '!')
