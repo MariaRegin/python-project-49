@@ -11,7 +11,7 @@ def launch_game(game_module):
     while tries < 3:
         tries += 1
         number, right_answer = game_module.operation_result()
-        print('Question: ', number)
+        print('Question:', number)
         answer = prompt.string('Your answer: ')
         if right_answer == answer:
             print('Correct!')
