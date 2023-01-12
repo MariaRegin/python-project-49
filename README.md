@@ -12,12 +12,26 @@ You can play following games:
 * Brain-prime
 * Brain-progression.
 
+### Hexlet tests and linter status:
+
+[![Actions Status](https://github.com/MariaRegin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/MariaRegin/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.com/github/MariaRegin/python-project-49/maintainabilit>
+
 ## Installation
 
 Use the package manager pip to install Brain Games.
 
-    	pip install brain-games
+    	pip install --user brain-games
 
+## How to play
+
+Enter 'make' + game name in the command line to launch.
+
+* For Brain-calc: make brain-calc
+* For Brain-even: make brain-even
+* For Brain-gcd (greatest common divisor): make brain-gcd
+* For Brain-prime: make brain-prime
+* For Brain-progression: make brain-progression.
 
 ## About games
 
@@ -35,26 +49,11 @@ Find greatest common divisor of the given numbers.
 
 ### Brain-prime
 
-Choose which numbers are prime.
+Choose numbers that are prime.
 
 ### Brain-progression
 
 Fill blank space with the right number in mathmematical progression.
-
-## How to play
-
-Enter 'make' + game name in the command line to launch.
-
-* For Brain-calc: make brain-calc
-* For Brain-even: make brain-even
-* For Brain-gcd (greatest common divisor): make brain-gcd
-* For Brain-prime: make brain-prime
-* For Brain-progression: make brain-progression.
-
-### Hexlet tests and linter status:
-
-[![Actions Status](https://github.com/MariaRegin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/MariaRegin/python-project-49/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.com/github/MariaRegin/python-project-49/maintainability)
 
 ### Examples
 
@@ -64,5 +63,5 @@ Here are possible options of playing, losing and winning in each game.
 * [Brain-even](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj)
 * [Brain-greatest common divisor](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk)
 * [Brain-prime](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK)
-* [Brain progression](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC)
+* [Brain progression](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC).
 
