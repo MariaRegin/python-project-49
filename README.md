@@ -1,6 +1,6 @@
 # Brain Games
 
-This is a project containing 5 math games to be played from console. Built on popular mobile apps principle, help to exercise your brain.
+Project containing 5 math games to be played from console. Built on popular mobile apps principle, help to exercise your brain.
 
 Each game gives you questions to be answered. If 3 out of 3 questions answered correctly you win. If you make a mistake game terminates and you have to start over. 
 
@@ -15,7 +15,7 @@ You can play following games:
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/MariaRegin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/MariaRegin/python-project-49/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.com/github/MariaRegin/python-project-49/maintainabilit>
+[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.com/github/MariaRegin/python-project-49/maintainabilit>)
 
 ## Installation
 
