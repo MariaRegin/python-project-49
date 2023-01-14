@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Create a pyproject.toml file for Brain Games project."
 authors = ["Maria Zhukova <zhukovamaria9@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/MariaRegin/python-project-49"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
