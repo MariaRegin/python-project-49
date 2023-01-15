@@ -18,5 +18,3 @@ def operation_result():
     else:
         right_answer = 'yes'
         return number, right_answer
-
-
