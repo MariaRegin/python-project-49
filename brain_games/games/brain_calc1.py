@@ -6,8 +6,8 @@ TASK = 'What is the result of the expression?'
 
 
 def operation_result():
-    random_number1 = random.randint(0,1000)
-    random_number2 = random.randint(0,1000)
+    random_number1 = random.randint(0, 1000)
+    random_number2 = random.randint(0, 1000)
     random_number1 = str(random_number1)
     random_number2 = str(random_number2)
     expression1 = random_number1 + ' * ' + random_number2
