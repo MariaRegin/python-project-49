@@ -12,7 +12,7 @@ def operation_result():
     step = random.randint(2, 5)
     for i in range(element1, element2, step):
         progression.append(i)
-    random_index = random.randint(0,9)
+    random_index = random.randint(0, 9)
     right_answer = str(progression[random_index])
     progression[random_index] = '..'
     number = " ".join(map(str, progression[0:10]))
