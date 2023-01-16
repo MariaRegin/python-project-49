@@ -19,7 +19,7 @@ def launch_game(game_module):
         else:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{right_answer}'."
-                  f"\nLet's try again, '{name}'!")
+                  f"\nLet's try again, {name}!")
             break
     else:
         print('Congratulations, ' + name + '!')
