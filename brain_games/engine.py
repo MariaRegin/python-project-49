@@ -17,7 +17,9 @@ def launch_game(game_module):
         if right_answer == answer:
             print('Correct!')
         else:
-            print('\"' + answer + '\"' + ' is wrong answer ;(. Correct answer was ' + right_answer + '.' + "\nLet's try again, " + name + '!')
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{right_answer}'."
+                  f"\nLet's try again, '{name}'!")
             break
     else:
         print('Congratulations, ' + name + '!')
