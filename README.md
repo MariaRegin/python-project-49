@@ -2,8 +2,8 @@
 
 ### Hexlet tests and linter status:
 
-[![Actions Status](https://github.com/MariaRegin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.co>
-[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.co>
+[![Actions Status](https://github.com/MariaRegin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/MariaRegin/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d27e6bb872a8a06aad89/maintainability)](https://codeclimate.com/github/MariaRegin/python-project-49/maintainability)
 
 Project containing 5 math games to be played from console. Built on popular mobile apps principle, help to exercise your brain.
 
