@@ -63,5 +63,5 @@ Here are possible options of playing, losing and winning in each game.
 * Brain-even [![asciicast](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj.svg)](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj)
 * Brain-greatest common divisor [![asciicast](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk.svg)](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk)
 * Brain-prime [![asciicast](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK.svg)](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK)
-* Brain progression [![asciicast](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC.svg)](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC)
+* Brain progression [![asciicast](https://asciinema.org/a/rfoqVw3YbQsbZYjs9oFj5tEAz.svg)](https://asciinema.org/a/rfoqVw3YbQsbZYjs9oFj5tEAz)
 
