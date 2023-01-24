@@ -23,6 +23,8 @@ Use the package manager pip to install Brain Games.
 
     	pip install --user brain-games
 
+To use this project Python 3 installation is required.
+
 ## How to play
 
 Enter 'make' + game name in the command line to launch.
