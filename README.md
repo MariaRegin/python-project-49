@@ -59,7 +59,7 @@ Fill blank space with the right number in mathmematical progression.
 
 Here are possible options of playing, losing and winning in each game.
 
-* [Brain-calc](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg)
+* [Brain-calc][![asciicast](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg.svg)](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg)
 * [Brain-even](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj)
 * [Brain-greatest common divisor](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk)
 * [Brain-prime](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK)
