@@ -59,9 +59,9 @@ Fill blank space with the right number in mathmematical progression.
 
 Here are possible options of playing, losing and winning in each game.
 
-* [Brain-calc][![asciicast](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg.svg)](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg)
-* [Brain-even](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj)
-* [Brain-greatest common divisor](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk)
-* [Brain-prime](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK)
-* [Brain progression](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC).
+* Brain-calc [![asciicast](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg.svg)](https://asciinema.org/a/kJYPcRnk6Rx4v6i5mIdStRwBg)
+* Brain-even [![asciicast](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj.svg)](https://asciinema.org/a/IQR9rWCqlEwJj6hEjWJxu6xAj)
+* Brain-greatest common divisor [![asciicast](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk.svg)](https://asciinema.org/a/142kushlKyKFcxxlWHFA5Smzk)
+* Brain-prime [![asciicast](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK.svg)](https://asciinema.org/a/elyRGCWoz1xsgifZFKENezmBK)
+* Brain progression [![asciicast](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC.svg)](https://asciinema.org/a/L44tYZtUjt3XeV3FWrDzyG6kC)
 
