@@ -2,10 +2,10 @@
 import random
 
 
-TASK = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def operation_result():
+def calculate_result():
     progression = []
     element1 = random.randint(2, 8)
     element2 = random.randint(40, 50)
@@ -17,5 +17,5 @@ def operation_result():
         random_index = random.randint(0, 9)
         right_answer = str(progression[random_index])
         progression[random_index] = '..'
-        number = " ".join(map(str, progression[0:10]))
-        return number, right_answer
+        task = " ".join(map(str, progression[0:10]))
+        return task, right_answer
