@@ -3,18 +3,18 @@ import random
 from math import sqrt
 
 
-TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def operation_result():
-    number = random.randint(2, 100)
+def calculate_result():
+    task = random.randint(2, 100)
     i = 2
-    while i <= sqrt(number):
-        if number % i == 0:
+    while i <= sqrt(task):
+        if task % i == 0:
             right_answer = 'no'
-            return number, right_answer
+            return task, right_answer
             break
         i += 1
     else:
         right_answer = 'yes'
-        return number, right_answer
+        return task, right_answer
