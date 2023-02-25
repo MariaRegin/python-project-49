@@ -2,13 +2,13 @@
 import random
 
 
-TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def operation_result():
-    number = random.randint(0, 1000)
-    if number % 2 == 0:
+def calculate_result():
+    task = random.randint(0, 1000)
+    if task % 2 == 0:
         right_answer = "yes"
     else:
         right_answer = 'no'
-    return number, right_answer
+    return task, right_answer
