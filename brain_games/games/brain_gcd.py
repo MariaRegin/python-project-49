@@ -6,7 +6,7 @@ import random
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def calculate_result():
+def get_result():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
     task = f'{first_number} {second_number}'
