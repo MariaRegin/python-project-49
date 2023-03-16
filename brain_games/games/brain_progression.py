@@ -5,7 +5,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def calculate_result():
+def get_result():
     progression = []
     element1 = random.randint(2, 8)
     element2 = random.randint(40, 50)
