@@ -13,6 +13,7 @@ def generate_round():
         right_answer = 'no'
     return task, right_answer
 
+
 def is_prime(question):
     for i in range(2, int(question / 2) + 1):
         if (question % i) == 0:
