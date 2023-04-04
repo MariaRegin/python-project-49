@@ -5,7 +5,7 @@ import random
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def get_result():
+def generate_round():
     random_number1 = random.randint(0, 1000)
     random_number2 = random.randint(0, 1000)
     expression1 = f"{random_number1} * {random_number2}"
