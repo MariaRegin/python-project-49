@@ -9,7 +9,7 @@ def launch_game(game):
     tries = 0
     while tries < 3:
         tries += 1
-        task, right_answer = game.get_result()
+        task, right_answer = game.generate_round()
         print(f"Question: {task}")
         answer = prompt.string('Your answer: ')
         if right_answer == answer:
