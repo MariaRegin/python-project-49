@@ -5,7 +5,7 @@ import random
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_result():
+def generate_round():
     task = random.randint(0, 1000)
     if is_even(task):
         right_answer = 'yes'
