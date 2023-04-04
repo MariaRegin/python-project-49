@@ -5,17 +5,25 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_result():
-    progression = []
-    element1 = random.randint(2, 8)
-    element2 = random.randint(40, 50)
+def generate_round():
+    start_num = random.randint(1, 100)
     step = random.randint(2, 5)
-    for i in range(element1, element2, step):
-        progression.append(i)
-        index = 0
-    while progression[index] < 11:
-        random_index = random.randint(0, 9)
-        right_answer = str(progression[random_index])
-        progression[random_index] = '..'
-        task = " ".join(map(str, progression[0:10]))
-        return task, right_answer
+    length = random.randint(7, 10)
+    progression = generate_progression(start_num, step, length)
+    random_index = random.randint(0, len(progression) - 1)
+    right_answer = str(progression[random_index])
+    progression[random_index] = '..'
+    task = ''
+    i = 0
+    while i < len(progression):
+        task += str(progression[i]) + ' '
+        i += 1
+    return task, right_answer
+
+
+def generate_progression(start_num, step, length):
+    progression = [start_num]
+    while length >= 0:
+        progression.append(progression[-1] + step)
+        length -= 1
+    return progression
