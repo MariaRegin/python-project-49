@@ -17,6 +17,7 @@ def generate_round():
     first_number = int(splitted_list[0])
     sign = splitted_list[1]
     second_number = int(splitted_list[2])
+
     def define_sign():
         if sign == '*':
             result = first_number * second_number
