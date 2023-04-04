@@ -13,6 +13,7 @@ def generate_round():
         right_answer = 'no'
     return task, right_answer
 
+
 def is_even(question):
     if question % 2 == 0:
         return True
