@@ -5,7 +5,7 @@ import random
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_result():
+def generate_round():
     task = random.randint(2, 100)
     if is_prime(task):
         right_answer = 'yes'
