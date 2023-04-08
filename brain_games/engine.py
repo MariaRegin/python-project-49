@@ -4,7 +4,7 @@ import prompt
 def launch_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+    print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     tries = 0
     while tries < 3:
