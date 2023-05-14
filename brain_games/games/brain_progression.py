@@ -13,12 +13,14 @@ def generate_round():
     random_index = random.randint(0, len(progression) - 1)
     right_answer = str(progression[random_index])
     progression[random_index] = '..'
-    task = ''
+    question = ''
     i = 0
     while i < len(progression):
-        task += str(progression[i]) + ' '
+        question += str(progression[i])
+        if i != len(progression) - 1:
+            question += ' '
         i += 1
-    return task, right_answer
+    return question, right_answer
 
 
 def generate_progression(start_num, step, length):
